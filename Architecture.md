@@ -10,3 +10,7 @@
   - Security checks, Mandatory per request/socket
   - Archive/delete, Soft flags only
   - Device mapping, Separate Redis map
+
+
+# Flow of user behaviour(online/offline)
+  

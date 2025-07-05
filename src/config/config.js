@@ -61,4 +61,12 @@ module.exports = {
     },
     from: envVars.EMAIL_FROM,
   },
+  redis: {
+    host: envVars.REDIS_HOST || 'localhost',
+    port: envVars.REDIS_PORT || 6379,
+    DB_NUMBER: {
+      user: 0, // Redis DB for user data
+      chat: 1, // Redis DB for chat data
+    },
+  },
 };
